@@ -1,0 +1,35 @@
+name: stock_scan_parser
+description: Assignment
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <3.1.1'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  dio: ^5.4.3+1
+  json_annotation: ^4.9.0
+  equatable: 2.0.5
+  dotted_separator: 1.0.6
+  test: ^1.24.3
+  bloc_test: ^9.1.7
+  mockito: ^5.4.4
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: '>4.4.0'
+  build_runner: ^2.4.9
+  retrofit: ^4.1.0
+  retrofit_generator: ^8.1.0
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
